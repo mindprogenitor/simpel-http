@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mindprogeny.util</groupId>
+	<artifactId>simple-http</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<parent>
+		<groupId>com.mindprogeny.common</groupId>
+		<artifactId>common-oss</artifactId>
+		<version>0.0.1</version>
+	</parent>
+
+	<description>Simple HTTP Client Library</description>
+	<url>https://github.com/mindprogenitor/simple-http</url>
+
+	<scm>
+		<connection>scm:git:git@github.com:mindprogenitor/simple-http.git</connection>
+		<developerConnection>scm:git:git@github.com:mindprogenitor/simple-http.git</developerConnection>
+		<url>http://github.com/mindprogenitor/simple-http</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<properties>
+		<wiremock.version>2.14.0</wiremock.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.tomakehurst</groupId>
+			<artifactId>wiremock-standalone</artifactId>
+			<version>${wiremock.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>
