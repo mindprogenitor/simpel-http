@@ -12,12 +12,12 @@
 	</parent>
 
 	<description>Simpel HTTP Client Library</description>
-	<url>https://github.com/mindprogenitor/simple-http</url>
+	<url>https://github.com/mindprogenitor/simpel-http</url>
 
 	<scm>
-		<connection>scm:git:git@github.com:mindprogenitor/simple-http.git</connection>
-		<developerConnection>scm:git:git@github.com:mindprogenitor/simple-http.git</developerConnection>
-		<url>http://github.com/mindprogenitor/simple-http</url>
+		<connection>scm:git:git@github.com:mindprogenitor/simpel-http.git</connection>
+		<developerConnection>scm:git:git@github.com:mindprogenitor/simpel-http.git</developerConnection>
+		<url>http://github.com/mindprogenitor/simpel-http</url>
 		<tag>HEAD</tag>
 	</scm>
 
