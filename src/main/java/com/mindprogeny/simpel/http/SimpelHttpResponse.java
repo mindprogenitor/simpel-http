@@ -1,11 +1,11 @@
 /*
- * SimpleHttpResponse.java, 26 Mar 2018
+ * SimpelHttpResponse.java, 26 Mar 2018
  * Created by Joao Viegas (joao.viegas@mindprogeny.com)
  *
  * Copyright (c)2016, 2017 Mind Progeny.
  */
 
-package com.mindprogeny.simple.http;
+package com.mindprogeny.simpel.http;
 
 import java.io.InputStream;
 
@@ -14,7 +14,7 @@ import java.io.InputStream;
  * @since 26 Mar 2018
  *
  */
-public interface SimpleHttpResponse {
+public interface SimpelHttpResponse {
 
 	/**
 	 * @return
